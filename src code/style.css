@@ -1,0 +1,63 @@
+    h1 {
+    color: #FFFFFF;
+    font-family: system-ui;
+    margin-left: 20px;
+    text-shadow: 0 0 10px #86C232;
+    }
+
+    body {
+        background-color: #222629;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    label {
+        color: #86C232;
+        font-family: system-ui;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+        text-shadow: 0 0 10px #222629;
+    }
+
+    button {
+        background-color: #86C232;
+        border-color: #86C232;
+        border-radius: 50px;
+        color: #FFFFFF;
+        font-family: system-ui;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 30px;
+        margin-top: 20px;
+        width: 140px;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 0 10px #222629;
+    }
+
+    button:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 10px #222629;
+    }
+
+    input {
+        background-color: #FFFFFF;
+        border-radius: 50px;
+        color: #222629;
+        font-family: system-ui;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 20px;
+        padding: 10px 20px;
+        width: 100px;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 0 10px #222629;
+    }
+
+    input:focus {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 10px #222629;
+        outline: none;
+    }
